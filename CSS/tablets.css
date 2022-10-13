@@ -1,0 +1,18 @@
+.wall::before {
+    height: 38.56rem;
+}
+
+
+.wall-t h1{
+    font-size: 43px;
+    width: 400px;
+}
+
+.wall-t h2{
+    font-size: 31px;
+    width: 500px;
+}
+
+.field h3{
+    font-size: 22px;
+}

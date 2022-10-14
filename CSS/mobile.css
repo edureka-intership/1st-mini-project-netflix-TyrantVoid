@@ -1,0 +1,322 @@
+.wall::before {
+    height: 32rem;
+}
+
+#navbar {
+    justify-content: space-evenly;
+}
+
+#logo img{
+    width: 115px;
+    height: auto;
+}
+
+.nav-S .lang {
+    display: block;
+    padding: 0px 10px;
+ 
+ }
+.lang select{
+    width: 85px;
+    /* height: 35px; */
+    padding: 6px 2px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #aaa;
+   
+}
+
+.signin {
+    font-size: 10px;
+    width: 90px;
+    padding: 0px;
+}
+
+.wall-t h1{
+    font-size: 29px;
+    color: #fff;
+    padding: 10px 0px;
+    width: 400px;
+}
+
+.wall-t h2{
+    font-size: 19px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;                 padding: 10px 0px;       
+    width: 290px;
+}
+
+.field {
+    align-items: center;
+    /* margin: 0% 28% 0 29%; */
+    text-align: center;
+}
+.field h3{
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px 0px;
+    width: 300px;
+}
+
+
+.email-get input{
+    width: 22.25rem;
+    height: 4rem;
+}
+
+.email-get label {
+    padding: 0px 5px;
+}
+.email-get input:focus ~ label{
+    top: -.01px;
+    left: 23px;
+}
+.email-get button{
+    width: 155px;
+    height: 3.375rem;
+    font-size: 17px;
+    margin: 8px;
+}
+
+@media (min-width: 412px) and (max-width:542px){
+    .email-get input{
+        width: 24.5rem;
+        height: 4rem;
+    }
+
+    .email-get label 
+    {
+        left: 25px;
+    }
+}
+
+.sec {
+    background: transparent;
+    border-bottom: 8px solid rgb(133, 133, 133);
+    position: relative;
+    width: 542px;
+} 
+.animation-contain {
+    flex-flow: column;
+    justify-content: baseline;
+    margin: 0px 0px;
+    max-width: 542px;
+    min-height: 500px;
+}
+
+.G-text {
+    width: 19.0625rem;
+    align-self: flex-start;
+    text-align: center;
+    margin: 30px 10px;
+    padding: 0px 0px 0px 0px;
+    
+}
+
+.G-text h1{
+    font-size: 2.2rem;
+    
+}
+.G-text h2{
+    font-size: 1.3rem;
+    padding: 17px 0px;
+  
+}
+
+.center-pixel {
+    position: absolute;
+    left: .10px;
+    width: 4.1875rem;
+    height: 3.125rem;
+    top:11.9rem;
+}
+
+.center-pixel video{
+    width: 380px;
+    height: 280px;
+    padding: 0px 50px 0px 0px;
+}  
+
+.animation-contain1 {
+   
+    flex-flow: column-reverse ;
+    padding: 0px 0px;
+ 
+    margin: 0px 0px;
+    max-width: 542px;
+    min-height: 30rem;
+}
+
+.G-text1 {
+    width: 21.25rem;
+    align-self: flex-start;
+    text-align: center;
+    margin: 30px 10px 0px 0px;
+    padding: 0px 00px 0px 0px;
+}
+
+.G-text1 h1{
+    font-size: 2rem;
+    
+}
+.G-text1 h2{
+    font-size: 1.3rem;
+    padding: 20px 10px;
+}
+
+.img-contain1 {
+    display:flex;
+    width: 430px; 
+    height: 20.25rem;
+    justify-content: left;
+    margin: 60px 0px;
+}
+.img-contain1 img{
+    width: 13.75rem;
+    height: 15.375rem;
+}
+
+
+
+
+
+.s-animate {
+    width: 17.498125rem;
+    height: 5.5rem;
+    top: 29.4375rem;
+    left: 1.625rem;
+}
+
+.s-img img{
+    text-align: center;
+    width: 3.5625rem;
+    height: 4.5rem;
+}
+
+.s-text {
+    color: #fff;
+    margin: 0.3em;
+    font-size: 1rem;
+}
+
+
+.animation-contain2 {
+    /* justify-content: flex-start; */
+    /* margin: 0px 0px;
+    max-width: 542px; */
+
+
+
+
+    flex-flow: column;
+    justify-content: baseline;
+    margin: 0px 0px;
+    max-width: 542px;
+    min-height: 500px;
+}
+
+
+.G-text2 {
+    width: 22.25rem;
+    align-self: flex-start;
+    text-align: center;
+    margin: 30px 10px 0px 0px;
+    padding: 0px 00px 0px 0px;
+}
+
+.G-text2 h1{
+    font-size: 2rem;
+    padding: 0px 0px 0px 10px;
+    width: 22rem;
+}
+.G-text2 h2{
+    font-size:1.3rem;
+    padding: 0px 0px 0px 20px;
+  
+}
+
+.center-pixel2 {
+    position: absolute;
+    left: .10px;
+    width: 4.1875rem;
+    height: 3.125rem;
+    top:13.5rem;
+} 
+.center-pixel2 video{
+    width: 330px;
+    height: 240px;
+} 
+
+
+
+
+.animation-contain3 {
+   
+    flex-flow: column-reverse ;
+    padding: 0px 0px;
+ 
+    margin: 0px 0px;
+    max-width: 542px;
+    min-height: 30rem;
+}
+
+.G-text3 {
+    width: 21.25rem;
+    align-self: flex-start;
+    text-align: center;
+    margin: 30px 10px 0px 0px;
+    padding: 0px 00px 0px 0px;
+}
+
+.G-text3 h1{
+    font-size: 2rem;
+    
+}
+.G-text3 h2{
+    font-size: 1.3rem;
+    padding: 20px 10px;
+}
+
+.img-contain3 {
+    display:flex;
+    width: 430px; 
+    height: 20.25rem;
+    justify-content: left;
+    margin: 60px 0px;
+}
+.img-contain3 img{
+    width: 18.75rem;
+    height: 19.375rem;
+}
+
+
+.accordion {
+    align-self: center;
+    width: 20.9375rem;
+    margin: 0px 0px 0px 19px;
+}
+
+
+footer{
+    margin: 0px 0px;
+    padding: 0px 0px 0px;
+}
+
+p{
+    margin: 20px;
+}
+
+
+li{
+    margin: 0px 0px 0px;
+}
+
+
+.lang1{
+    display: flex;
+    justify-self: flex-start;
+    margin: 20px;
+    
+}
+ 

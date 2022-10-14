@@ -1,0 +1,295 @@
+.wall::before {
+    height: 42.56rem;
+}
+
+
+.wall-t h1{
+    font-size: 43px;
+    width: 400px;
+}
+
+.wall-t h2{
+    font-size: 31px;
+    width: 500px;
+}
+
+.field h3{
+    font-size: 22px;
+}
+
+    
+.sec {
+    background: transparent;
+    border-bottom: 8px solid rgb(133, 133, 133);
+    position: relative;
+    width: 997px;
+} 
+
+.animation-contain {
+    flex-flow: column;
+    justify-content: baseline;
+    margin: 0px 0px;
+    max-width: 997px;
+    min-height: 500px;
+}
+
+
+.G-text {
+    width: 29.0625rem;
+    align-self: flex-start;
+    text-align: center;
+    margin: 15px 10rem;
+    padding: 0px 0px 0px 0px;
+    
+}
+
+.G-text h1{
+    font-size: 2.5rem;
+    
+}
+
+.G-text h2{
+    font-size: 1.3rem;
+    padding: 13px 0px;
+    
+}
+.center-pixel {
+    position: absolute;
+    left: 140.10px;
+    width: 4.1875rem;
+    height: 3.125rem;
+    top:5.6rem;
+    z-index: -1;
+}
+
+.center-pixel video{
+    width: 550px;
+    height: 450px;
+    padding: 0px 50px 0px 0px;
+} 
+
+
+/* section 2 start here  */
+
+
+.animation-contain1 {
+   
+    flex-flow: column-reverse ;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    max-width: 768px;
+    min-height: 500px;
+}
+
+.G-text1 {
+    width: 29.25rem;
+    align-self: center;
+    text-align: center;
+    margin: 15px 10px 0px 10px;
+    /* margin: 15px 10rem 0px 10rem; */
+    padding: 0px 0px 0px 0px;
+}
+
+.G-text1 h1{
+    font-size: 2.5rem;
+    
+}
+.G-text1 h2{
+    font-size: 1.3rem;
+    padding: 15px 10px 0px 10px;
+}
+
+.img-contain1 {
+    display:flex;
+    width: 550px; 
+    height: 15.25rem;
+    justify-content: center;
+    margin: 0px 0px;
+}
+.img-contain1 img{
+    width: 15.75rem;
+    height: 17.375rem;
+    padding: 0px 0px 40px 0px;
+    z-index: -1;
+}
+.s-animate {
+    width: 20.498125rem;
+    height: 5.5rem;
+    top: 25.4375rem;
+    left: 13.4rem;
+    z-index: -1;
+}
+/* SECTION 2 STARTS HERE  */
+
+.animation-contain2 {
+    flex-flow: column;
+    margin: 0px 0px;
+    max-width: 768px;
+    min-height: 500px;
+}
+
+.G-text2 {
+    width: 29.25rem;
+    align-self: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: 30px 10px 0px 0px;
+    padding: 0px 00px 0px 0px;
+}
+
+.G-text2 h1{
+    font-size: 2.5rem;
+    padding: 0px 0px 0px 10px;
+    width: 28rem;
+}
+.G-text2 h2{
+    font-size:1.3rem;
+    padding: 0px 0px 0px 20px;
+  
+}
+
+.center-pixel2 {
+    position: absolute;
+    left: 8rem;
+    width: 4.1875rem;
+    height: 3.125rem;
+    top:9.5rem;
+    z-index: -1;
+} 
+.center-pixel2 video{
+    width: 530px;
+    height: 340px;
+} 
+
+
+/* SECTION 3 START HERE  */
+
+.animation-contain3 {
+   
+    flex-flow: column-reverse ;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    max-width: 768px;
+    min-height: 500px;
+}
+
+.G-text3 {
+    width: 29.25rem;
+    align-self: center;
+    text-align: center;
+    margin: 15px 10px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.G-text3 h1{
+    font-size: 2.5rem;
+    
+}
+.G-text3 h2{
+    font-size: 1.3rem;
+    padding: 15px 10px;
+}
+
+.img-contain3 {
+    display:flex;
+    width: 330px; 
+    height: 20.25rem;
+    justify-content: center;
+    z-index: -1;
+    margin: 0px 0px;
+}
+.img-contain3 img{
+    width: 21.75rem;
+    height: 22.375rem;
+}
+
+/* FAQ SECTION STARTS HERE  */
+
+.accordion {
+    align-self: center;
+    width: 47.9375rem;
+    margin: 0px 0px 0px 0px;
+}
+
+
+.field1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+.field1 h3{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px 0px;
+}
+
+.email-get label{
+    left: 70px;
+    font-size: 20px;
+}
+
+.email-get input:focus ~ label{
+    left: 50px;
+    font-size: 15px;
+}
+.email-get input{
+    width: 45rem;
+}
+
+.email-get button{
+    margin: 20px 0px;
+}
+
+/* FOOTER STARTS HERE  */
+footer{
+    margin: 0px 0px;
+    padding: 0px 0px 0px;
+}
+
+p{
+    margin: 20px;
+    font-size: 20px;
+}
+
+
+li{
+    margin: 0px 0px 0px;
+    font-size: 20px;
+}
+
+
+.lang1{
+    display: flex;
+    justify-self: flex-start;
+    margin: 20px;
+    font-size: 20px;
+    
+}
+.lang1 select{
+    width: 150px;
+
+}
+
+ @media (min-width: 884px){
+    .email-get label{
+        left: 125px;
+        font-size: 20px;
+    }
+    
+    .email-get input:focus ~ label{
+        left: 125px;
+        font-size: 15px;
+    }
+
+
+ }
+
+
+ @media(min-width: 998px) and (max-width: 1535px){
+    
+
+ }
